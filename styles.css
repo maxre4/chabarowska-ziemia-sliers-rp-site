@@ -166,8 +166,27 @@ body::before {
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    padding-top: 60px;
+  html, body {
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    zoom: 100%;
+  }
+
+  h1 {
+    font-size: 1.6em;
+    margin-top: 60px;
+  }
+
+  p {
+    font-size: 1em;
+    margin: 10px 15px;
+  }
+
+  .rules-section {
+    margin: 20px 10px;
+    padding: 15px;
+    font-size: 14px;
   }
 
   .site-header {
@@ -186,16 +205,38 @@ body::before {
   }
 
   .site-header h1 {
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin: 0;
-    white-space: nowrap;
     flex: 1;
   }
 
   .news-button {
     position: relative;
-    font-size: 12px;
-    padding: 5px 10px;
+    margin: 0;
+    padding: 6px 12px;
+    font-size: 13px;
     white-space: nowrap;
+  }
+
+  #Button1, #Button2 {
+    position: static;
+    display: block;
+    width: 85%;
+    max-width: 260px;
+    margin: 12px auto;
+    height: auto;
+    font-size: 14px;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .designer-credit {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 40px auto 20px;
+    font-size: 13px;
+    padding: 8px 0;
   }
 }

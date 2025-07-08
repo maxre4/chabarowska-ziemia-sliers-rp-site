@@ -149,9 +149,6 @@ body::before {
   color: rgb(34, 34, 34);
   padding: 8px 16px;
   border: none;
-  position: absolute;
-  left: 290px;
-  top: 12px;
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;

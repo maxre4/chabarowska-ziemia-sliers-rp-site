@@ -165,31 +165,8 @@ body::before {
   color: white;
 }
 @media screen and (max-width: 768px) {
-  html, body {
-    height: auto;
-    overflow-y: auto;
-    overflow-x: hidden;
-    zoom: 100%;
-  }
-
   body {
-    padding-top: 60px; /* отступ под фиксированную шапку */
-  }
-
-  h1 {
-    font-size: 2em;
-    margin-top: 60px;
-  }
-
-  p {
-    font-size: 1.2em;
-    margin: 10px 15px;
-  }
-
-  .rules-section {
-    margin: 20px 10px;
-    padding: 15px;
-    font-size: 14px;
+    padding-top: 60px;
   }
 
   .site-header {
@@ -200,7 +177,6 @@ body::before {
     height: 60px;
     background-color: rgba(0, 0, 0, 0.7);
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0 16px;
@@ -217,31 +193,8 @@ body::before {
 
   .news-button {
     position: relative;
-    margin: 0;
-    padding: 6px 10px;
-    font-size: 13px;
+    font-size: 12px;
+    padding: 5px 10px;
     white-space: nowrap;
-  }
-
-  #Button1, #Button2 {
-    position: static;
-    display: block;
-    width: 90%;
-    max-width: 280px;
-    margin: 12px auto;
-    height: auto;
-    font-size: 14px;
-    flex-direction: row;
-    gap: 8px;
-  }
-
-  .designer-credit {
-    position: relative;
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin: 40px auto 20px;
-    font-size: 13px;
-    padding: 8px 0;
   }
 }

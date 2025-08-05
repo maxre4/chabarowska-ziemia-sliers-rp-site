@@ -150,7 +150,7 @@ body::before {
   padding: 8px 16px;
   border: none;
   position: absolute;
-  left: 300px;
+  left: 400px;
   top: 12px;
   border-radius: 6px;
   text-decoration: none;
@@ -239,4 +239,5 @@ body::before {
   border-radius: 8px;
   }
 }
+
 
